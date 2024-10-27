@@ -5763,6 +5763,13 @@
             "schema": {
               "type": "string"
             }
+          },
+          {
+            "name": "itemid",
+            "required": true,
+            "in": "path",
+            "description": "itemid",
+            "schema": {}
           }
         ],
         "requestBody": {
@@ -9881,6 +9888,13 @@
               },
               "type": "object"
             }
+          },
+          {
+            "name": "resourceType",
+            "required": true,
+            "in": "path",
+            "description": "The ID of the resource",
+            "schema": {}
           }
         ],
         "responses": {
@@ -11608,12 +11622,12 @@
           "startedAt": {
             "format": "date-time",
             "type": "string",
-            "example": "2024-10-27T04:34:03.783Z"
+            "example": "2024-10-27T04:53:40.404Z"
           },
           "endedAt": {
             "format": "date-time",
             "type": "string",
-            "example": "2024-10-27T04:34:03.783Z"
+            "example": "2024-10-27T04:53:40.404Z"
           },
           "isResultPublished": {
             "type": "boolean",
@@ -11669,12 +11683,12 @@
           "startedAt": {
             "format": "date-time",
             "type": "string",
-            "example": "2024-10-27T04:34:03.783Z"
+            "example": "2024-10-27T04:53:40.404Z"
           },
           "endedAt": {
             "format": "date-time",
             "type": "string",
-            "example": "2024-10-27T04:34:03.783Z"
+            "example": "2024-10-27T04:53:40.404Z"
           },
           "isResultPublished": {
             "type": "boolean",
