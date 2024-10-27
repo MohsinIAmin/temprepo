@@ -10044,22 +10044,6 @@
         "operationId": "ImagesGeneralController_uploadFileV1",
         "summary": "Upload any file",
         "parameters": [],
-        "requestBody": {
-          "required": true,
-          "content": {
-            "multipart/form-data": {
-              "schema": {
-                "type": "object",
-                "properties": {
-                  "file": {
-                    "type": "file",
-                    "format": "binary"
-                  }
-                }
-              }
-            }
-          }
-        },
         "responses": {
           "201": {
             "description": ""
@@ -11622,12 +11606,12 @@
           "startedAt": {
             "format": "date-time",
             "type": "string",
-            "example": "2024-10-27T04:53:40.404Z"
+            "example": "2024-10-27T05:05:45.407Z"
           },
           "endedAt": {
             "format": "date-time",
             "type": "string",
-            "example": "2024-10-27T04:53:40.404Z"
+            "example": "2024-10-27T05:05:45.407Z"
           },
           "isResultPublished": {
             "type": "boolean",
@@ -11683,12 +11667,12 @@
           "startedAt": {
             "format": "date-time",
             "type": "string",
-            "example": "2024-10-27T04:53:40.404Z"
+            "example": "2024-10-27T05:05:45.407Z"
           },
           "endedAt": {
             "format": "date-time",
             "type": "string",
-            "example": "2024-10-27T04:53:40.404Z"
+            "example": "2024-10-27T05:05:45.407Z"
           },
           "isResultPublished": {
             "type": "boolean",
